@@ -1,5 +1,5 @@
 {
-  "name": "capitan-cli",
+  "name": "@brandung/capitan-cli",
   "version": "1.0.0",
   "description": "CLI for capitan FE workflow",
   "main": "index.js",
@@ -14,9 +14,21 @@
     "cap": "./bin/cap"
   },
   "author": "Johannes Rackles",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.0.1",
     "commander": "^2.11.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandung/capitan-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brandung/capitan-cli/issues"
+  },
+  "homepage": "https://github.com/brandung/capitan-cli#readme"
 }
