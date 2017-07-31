@@ -1,0 +1,22 @@
+{
+  "name": "capitan-cli",
+  "version": "1.0.0",
+  "description": "CLI for capitan FE workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "capitan"
+  ],
+  "bin": {
+    "cap": "./bin/cap"
+  },
+  "author": "Johannes Rackles",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "commander": "^2.11.0"
+  }
+}
